@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "dev.kors.gpucraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockEntityRendererMixin",
+    "EntityRendererMixin",
+    "FramerateLimitTrackerMixin",
+    "RenderPearlGlStateManagerCacheMixin",
+    "HudMixin",
+    "ParticleAccessor",
+    "ParticleEngineMixin",
+    "WeatherEffectRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
